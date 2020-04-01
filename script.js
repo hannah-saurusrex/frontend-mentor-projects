@@ -43,17 +43,17 @@ const projects = [
 
 const list = document.getElementById('list');
 
-projects.forEach(({ name, link }, i) => {
+projects.forEach(({ name, link }) => {
     const listItem = document.createElement('li');
 
     listItem.innerHTML = `
-        <a href="${link}">
+        <a target="_blank" href="${link}">
             <img src="/images/${name}-desktop-preview.jpg" alt="${name}" />
-            <p>${i + 1}. ${formatProjectName(name)}</p>
+            <p>${formatProjectName(name)}</p>
         </a>
 
         <div class="links-container">
-            <a href="${link}" class="blue">
+            <a target="_blank" href="${link}" class="blue">
                 <i class="fas fa-eye"></i>
             </a>
         </div>

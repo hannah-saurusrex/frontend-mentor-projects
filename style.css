@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --pink: #f9ceb7;
+    --secondPink: #cc9d84;
+}
 
 * {
     box-sizing: border-box;
@@ -6,7 +11,7 @@
 
 body {
     background: #fefefe;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 50px;
 }
 
@@ -16,8 +21,27 @@ body {
     max-width: 100%;
 }
 
+.container-small {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-small-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container-small-link:hover {
+    color: var(--secondPink);
+}
+
 h1 {
     text-align: center;
+}
+
+p {
+    line-height: 1.5;
 }
 
 h2 {
@@ -46,7 +70,7 @@ ul {
 ul li {
     background-color: #fff;
     box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
-    margin: 20px;
+    margin: 25px;
     width: 325px;
 }
 
@@ -65,13 +89,12 @@ ul li img {
 }
 
 ul li p {
-    font-weight: bold;
     padding: 0 15px; 
 }
 
 .links-container {
     padding: 15px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .links-container a {
@@ -88,7 +111,7 @@ ul li p {
 }
 
 .links-container a.blue {
-    background-color: #34a0e9;
+    background-color: var(--pink);
 }
 
 .links-container a:hover {
@@ -102,7 +125,7 @@ footer {
     position: fixed;
     bottom: 0;
     left: 0;
-    padding: 10px;
+    padding: 15px;
     width: 100%;
     text-align: center;
 }
