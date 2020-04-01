@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
 :root {
     --pink: #f9ceb7;
     --secondPink: #cc9d84;
+    --darkGrayishBlue: hsl(230, 11%, 40%);
+    --grayishBlue: hsl(231, 7%, 65%);
 }
 
 * {
@@ -19,6 +21,7 @@ body {
     width: 1200px;
     margin: 0 auto;
     max-width: 100%;
+    padding-top: 30px;
 }
 
 .container-small {
@@ -28,24 +31,31 @@ body {
 }
 
 .container-small-link {
-    text-decoration: none;
+    text-decoration: underline;
     color: inherit;
 }
 
 .container-small-link:hover {
-    color: var(--secondPink);
+    color: var(--pink);
+}
+
+.project-name {
+    font-weight: 600;
 }
 
 h1 {
     text-align: center;
+    font-weight: 600;
 }
 
 p {
     line-height: 1.5;
+    font-weight: 400;
 }
 
 h2 {
     position: relative;
+    font-weight: 600;
 }
 
 h2::after {
@@ -69,7 +79,7 @@ ul {
 
 ul li {
     background-color: #fff;
-    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.3);
     margin: 25px;
     width: 325px;
 }
@@ -119,7 +129,7 @@ ul li p {
 }
 
 footer {
-    background-color: #222;
+    background-color:var(--grayishBlue);
     color: #fff;
     font-size: 14px;
     position: fixed;
@@ -134,6 +144,10 @@ footer a {
     color: #fff;
 }
 
+footer a:hover {
+    color: var(--pink);
+}
+
 footer i {
-    color: red;
+    color: var(--pink);
 }

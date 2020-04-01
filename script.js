@@ -1,43 +1,43 @@
 const projects = [
     {
         name: 'base-apparel-splash-page',
-        link: 'https://relaxed-poitras-71302d.netlify.com/'
+        link: 'https://relaxed-poitras-71302d.netlify.app/'
     },
     {
         name: 'clipboard-landing-page',
-        link: 'https://quirky-minsky-657eba.netlify.com/'
+        link: 'https://quirky-minsky-657eba.netlify.app/'
     },
     {
         name: 'four-card-web-app',
-        link: 'https://lucid-yonath-04dab6.netlify.com/'
+        link: 'https://lucid-yonath-04dab6.netlify.app/'
     },
     {
         name: 'fylo-landing-page-two-column',
-        link: 'https://friendly-bell-fb7d83.netlify.com/'
+        link: 'https://friendly-bell-fb7d83.netlify.app/'
     },
     {
         name: 'huddle-landing-page-single',
-        link: 'https://eloquent-shannon-b75d7c.netlify.com/'
+        link: 'https://eloquent-shannon-b75d7c.netlify.app/'
     },
     {
         name: 'huddle-landing-page',
-        link: 'https://quizzical-kowalevski-aafb95.netlify.com/'
+        link: 'https://quizzical-kowalevski-aafb95.netlify.app/'
     },
     {
         name: 'insure-landing-page',
-        link: 'https://hardcore-lichterman-b4c1d4.netlify.com/'
+        link: 'https://hardcore-lichterman-b4c1d4.netlify.app/'
     },
     {
         name: 'ping-coming-soon',
-        link: 'https://fervent-mayer-53440f.netlify.com/'
+        link: 'https://fervent-mayer-53440f.netlify.app/'
     },
     {
         name: 'pricing-component-toggle',
-        link: 'https://gracious-benz-b8a1e1.netlify.com/'
+        link: 'https://gracious-benz-b8a1e1.netlify.app/'
     },
     {
         name: 'project-tracking-component',
-        link: 'https://admiring-panini-cd2606.netlify.com/'
+        link: 'https://admiring-panini-cd2606.netlify.app/'
     }
 ];
 
@@ -49,7 +49,7 @@ projects.forEach(({ name, link }) => {
     listItem.innerHTML = `
         <a target="_blank" href="${link}">
             <img src="/images/${name}-desktop-preview.jpg" alt="${name}" />
-            <p>${formatProjectName(name)}</p>
+            <p class="project-name">${formatProjectName(name)}</p>
         </a>
 
         <div class="links-container">
