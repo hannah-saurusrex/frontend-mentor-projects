@@ -53,7 +53,7 @@ projects.forEach(({ name, link }) => {
         </a>
 
         <div class="links-container">
-            <a target="_blank" href="${link}" class="blue">
+            <a target="_blank" href="${link}" class="pink">
                 <i class="fas fa-eye"></i>
             </a>
         </div>
