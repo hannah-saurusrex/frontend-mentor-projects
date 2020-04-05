@@ -38,8 +38,13 @@ const projects = [
     {
         name: 'project-tracking-component',
         link: 'https://admiring-panini-cd2606.netlify.app/'
+    },
+    {
+        name: 'rest-countries-api',
+        link: 'https://objective-rosalind-d9f84d.netlify.com/'
     }
 ];
+
 
 const list = document.getElementById('list');
 
