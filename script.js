@@ -1,5 +1,13 @@
 const projects = [
     {
+        name: 'rest-countries-api',
+        link: 'https://objective-rosalind-d9f84d.netlify.com/'
+    },
+    {
+        name: 'insure-landing-page',
+        link: 'https://hardcore-lichterman-b4c1d4.netlify.app/'
+    },
+    {
         name: 'base-apparel-splash-page',
         link: 'https://relaxed-poitras-71302d.netlify.app/'
     },
@@ -24,10 +32,6 @@ const projects = [
         link: 'https://quizzical-kowalevski-aafb95.netlify.app/'
     },
     {
-        name: 'insure-landing-page',
-        link: 'https://hardcore-lichterman-b4c1d4.netlify.app/'
-    },
-    {
         name: 'ping-coming-soon',
         link: 'https://fervent-mayer-53440f.netlify.app/'
     },
@@ -38,10 +42,6 @@ const projects = [
     {
         name: 'project-tracking-component',
         link: 'https://admiring-panini-cd2606.netlify.app/'
-    },
-    {
-        name: 'rest-countries-api',
-        link: 'https://objective-rosalind-d9f84d.netlify.com/'
     }
 ];
 
