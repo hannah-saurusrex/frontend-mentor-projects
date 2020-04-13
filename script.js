@@ -1,7 +1,11 @@
 const projects = [
     {
         name: 'rest-countries-api',
-        link: 'https://objective-rosalind-d9f84d.netlify.com/'
+        link: 'https://objective-rosalind-d9f84d.netlify.app/'
+    },
+    {
+        name: 'job-board-react',
+        link: 'https://hungry-morse-69d490.netlify.app/'
     },
     {
         name: 'insure-landing-page',
