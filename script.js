@@ -46,6 +46,10 @@ const projects = [
     {
         name: 'base-apparel-splash-page',
         link: 'https://relaxed-poitras-71302d.netlify.app/'
+    },
+    {
+        name: 'intro-with-signup',
+        link: 'https://fervent-wright-484890.netlify.app/'
     }
 ];
 
