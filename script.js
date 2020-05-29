@@ -8,6 +8,10 @@ const projects = [
         link: 'https://hungry-morse-69d490.netlify.app/'
     },
     {
+        name: 'rock-paper-scissors',
+        link: 'https://nervous-curie-ab80a5.netlify.app/'
+    },
+    {
         name: 'insure-landing-page',
         link: 'https://hardcore-lichterman-b4c1d4.netlify.app/'
     },
